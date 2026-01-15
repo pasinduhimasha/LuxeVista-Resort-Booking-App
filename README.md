@@ -62,7 +62,7 @@ A demonstration video of the application is included in this repository, showcas
 
 
 ## Author
-**Pasindu Himasha** – Aspiring Software Developer with an interest in web application development and system design.  
+**Pasindu Himasha**  
 
 ---
 
