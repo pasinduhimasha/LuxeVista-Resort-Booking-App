@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/starting_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/starting_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LuxeVistaResort"
+        tools:targetApi="31">
+        <activity
+            android:name=".NOTIFI"
+            android:exported="false" />
+        <activity
+            android:name=".SHOW_BOOKING_DATA"
+            android:exported="false" />
+        <activity
+            android:name=".ITEM_ROOM"
+            android:exported="false" />
+        <activity
+            android:name=".SHOW_DATA"
+            android:exported="false" />
+        <activity
+            android:name=".SINGLE_ROOM"
+            android:exported="false" />
+        <activity
+            android:name=".DELUXE_ROOM3"
+            android:exported="false" />
+        <activity
+            android:name=".DELUXE_ROOM2"
+            android:exported="false" />
+        <activity
+            android:name=".OCEAN_VIEW_ROOM3"
+            android:exported="false" />
+        <activity
+            android:name=".OCEAN_VIEW_ROOM2"
+            android:exported="false" />
+        <activity
+            android:name=".Ocean_VIEW_ROOM1"
+            android:exported="false" />
+        <activity
+            android:name=".BEACH_TOURS"
+            android:exported="false" />
+        <activity
+            android:name=".CABANAS"
+            android:exported="false" />
+        <activity
+            android:name=".DINING"
+            android:exported="false" />
+        <activity
+            android:name=".SPA_TREATMENTS"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
+            android:name=".Booking"
+            android:exported="false" />
+        <activity
+            android:name=".Services"
+            android:exported="false" />
+        <activity
+            android:name=".Service"
+            android:exported="false" />
+        <activity
+            android:name=".RoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Firstscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
